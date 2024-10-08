@@ -1,0 +1,17 @@
+body {
+    background-image: url('Images/sasdas.png'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Memastikan gambar mengisi seluruh area */
+    background-position: center; /* Memusatkan gambar */
+    height: 100vh; /* Mengatur tinggi div sama dengan tinggi jendela */
+    display: flex; /* Menggunakan flexbox untuk penataan konten */
+    flex-direction: column; /* Mengatur arah flex menjadi kolom */
+    justify-content: center; /* Memusatkan konten secara vertikal */
+    align-items: center; /* Memusatkan konten secara horizontal */
+    color: white; /* Mengatur warna teks */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Menambahkan bayangan teks untuk kontras */
+}
+
+.box {
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 24%, rgba(0,9,106,1) 100%);
+}
